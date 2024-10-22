@@ -9,15 +9,15 @@ This cheat sheet covers the most common modes and motions in Vim, helping you na
 - Press Esc or Ctrl+[ to enter
 
 ### Insert Mode
-- Enter by pressing 'i' (before cursor) or 'a' (after cursor)
+- Enter by pressing `i` (before cursor) or `a` (after cursor)
 - Used for entering text
 
 ### Visual Mode
-- Enter by pressing 'v'
+- Enter by pressing `v`
 - Select text visually
 
 ### Command Line Mode
-- Enter by pressing ':' followed by 'q'
+- Enter by pressing `:` followed by `q`
 
 ## Motions
 
@@ -38,7 +38,7 @@ This cheat sheet covers the most common modes and motions in Vim, helping you na
 - Paste after cursor: `p`
 
 ### Selection
-- Select entire line: 'V'
+- Select entire line: `V`
 
 ## Horizontal Movements
 
@@ -56,8 +56,8 @@ This cheat sheet covers the most common modes and motions in Vim, helping you na
 
 ### Deletion at Word Boundaries
 - Delete current word: `diw` or `diW`
-- Delete from before cursor to start of word: 'db' or 'dB'
-- Delete from cursor to end or word: 'dw' or 'dW'
+- Delete from before cursor to start of word: `db` or `dB`
+- Delete from cursor to end or word: `dw` or `dW`
 - Select current word: `viw` or `viW`
 - Cut current word: `ciw` or `ciW`
 - Copy current word: `yiw` or `yiW`
