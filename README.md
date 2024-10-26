@@ -19,26 +19,14 @@ This cheat sheet covers the most common modes and motions in Vim, helping you na
 ### Command Line Mode
 - Enter by pressing `:` followed by `q`
 
-## Motions
+## Operations/Motions
 
-### Deletion
-- Delete entire line: `dd`
-- Delete from cursor to end of line: `D` or `C`
-- Delete from cursor to start of line: `d^` or `Ctrl+u` (in insert mode)
-
-### Cutting
-- Cut entire word: `ciw` or `ciW`
-- Cut current line: `cc`
-
-### Copying
-- Copy entire word: `yiw` or `yiW`
-- Copy current line: `yy`
-
-### Pasting
-- Paste after cursor: `p`
-
-### Selection
-- Select entire line: `V`
+- Delete: `d`
+- Change: `c`
+- Select: `v`
+- Copy/Yank: `y`
+- Cut: `x`
+- Paste: `p`
 
 ## Horizontal Movements
 
@@ -54,15 +42,37 @@ This cheat sheet covers the most common modes and motions in Vim, helping you na
 - Start of word: `b` or `B`
 - End of word: `e` or `E`
 
-### Deletion at Word Boundaries
-- Delete current word: `diw` or `diW`
-- Delete from before cursor to start of word: `db` or `dB`
-- Delete from cursor to end or word: `dw` or `dW`
-- Select current word: `viw` or `viW`
-- Change current word: `ciw` or `ciW`
-- Copy current word: `yiw` or `yiW`
+### Line Positioning
+- Start of line: `I` or `_` (underscore)
+- End of line: `A` or `$` (dollar-sign)
 
-### Deletion in Bracket Boundaries
+### Operations within words
+- Delete entire word: `diw` or `diW` (with pancuation)
+- Delete from before cursor to start of word: `db` or `dB` (with pancuation)
+- Delete from cursor to end or word: `dw` or `dW` (with pancuation)
+- Change entire word: `ciw` or `ciW` (with pancuation)
+- Copy(Yank) entire word: `yiw` or `yiW` (with pancuation)
+- Select(Visual) entire word: `viw` or `viW` (with pancuation)
+
+### Character Jumping
+- Move to character: `f{char}` or `F{char}`
+- Move just before character: `t{char}` or `T{char}`
+- Delete upto an specific character (?): `df?` or `dF?`
+- Delete upto just before of an specific character (!): `dt!` or `dT!`
+- Change upto an specific character (?): `cf?` or `cF?`
+- Change upto just before of an specific character (!): `ct!` or `cT!`
+- Find same character in line: `;` or `,`
+
+### Operations with lines
+- Delete entire line: `dd`
+- Delete from cursor to end of line: `D` or `C`
+- Delete from cursor to start of line: `d^` or `c^` or `Ctrl+u` (in insert mode)
+- Copy entire line: `yy`
+- Change entire line: `cc` or `S`
+- Select entire line: `V`
+- Duplicate entire line: `yyp` or `Yp`
+
+### Operations in Bracket Boundaries
 - Delete everything in Parenthesis(): `dib`
 - Delete everything with and between Parenthesis(): `dab`
 - Delete everything in curly braces{}: `diB`
@@ -73,16 +83,31 @@ This cheat sheet covers the most common modes and motions in Vim, helping you na
 - Change everything with and between Parenthesis(): `cab`
 - Change everything in curly braces{}: `ciB`
 - Change everything with and between curly braces{}: `caB`
+- Remove struct/class/function with declaration: `vaBVd` or `vaBVc`
 - Change everything in "": `ci"`
 - Change everything with and between "": `ca"`
+- Jumping to matching bracket: `%`
+- Move to start of brakets: `[(`, `[{`
+- Move to end of brakets: `])`, `]}`
 
-### Line Positioning
-- Start of line: `I` or `_` (underscore)
-- End of line: `A` or `$` (dollar-sign)
+## Vertical Movements:
 
-### Character Jumping
-- Move to character: `f{char}` or `F{char}`
-- Move just before character: `t{char}` or `T{char}`
+### Up Arrow
+- Move Up: `k`
+- jump 8 line up: `8k`
+- Delete above 5 line: `d5k`
+
+### Down Arrow
+- Move down: `j`
+- jump 10 line below: `10j`
+- Delete below 3 line: `d3j`
+
+### Operations within lines
+- Move to the top of a file: `gg`
+- Move to the end of a file: `G`
+- Move cursor at the middle: `zz`
+- Insert a new line above cursor: `O`
+- Insert a new line below cursor: `o`
 
 ## Additional Tips
 
