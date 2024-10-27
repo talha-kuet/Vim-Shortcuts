@@ -65,12 +65,12 @@ This cheat sheet covers the most common modes and motions in Vim, helping you na
 
 ### Operations with lines
 - Delete entire line: `dd`
-- Delete from cursor to end of line: `D` or `C`
-- Delete from cursor to start of line: `d^` or `c^` or `Ctrl+u` (in insert mode)
 - Copy entire line: `yy`
 - Change entire line: `cc` or `S`
 - Select entire line: `V`
 - Duplicate entire line: `yyp` or `Yp`
+- Delete from cursor to end of line: `D` or `C`
+- Delete from cursor to start of line: `d^` or `c^` or `Ctrl+u` (in insert mode)
 
 ### Operations in Bracket Boundaries
 - Delete everything in Parenthesis(): `dib`
