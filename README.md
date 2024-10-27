@@ -1,4 +1,4 @@
-# Vim Modes and Motions Cheat Sheet
+# Vim Cheat Sheet
 
 This cheat sheet covers the most common modes and motions in Vim, helping you navigate and edit text efficiently.
 
