@@ -6,7 +6,7 @@ This cheat sheet covers the most common modes and motions in Vim, helping you na
 
 ### Normal Mode
 - Default mode
-- Press `Esc` or `Ctrl+[` to enter
+- Press `Esc` or `Ctrl+c` or `Ctrl+[` to enter
 
 ### Insert Mode
 - Enter by pressing `i` (before cursor) or `a` (after cursor)
