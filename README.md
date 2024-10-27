@@ -63,7 +63,7 @@ This cheat sheet covers the most common modes and motions in Vim, helping you na
 - Change upto just before of an specific character (!): `ct!` or `cT!`
 - Find same character in line: `;` or `,`
 
-### Operations with lines
+### Operations within lines
 - Delete entire line: `dd`
 - Copy entire line: `yy`
 - Change entire line: `cc` or `S`
@@ -72,7 +72,27 @@ This cheat sheet covers the most common modes and motions in Vim, helping you na
 - Delete from cursor to end of line: `D` or `C`
 - Delete from cursor to start of line: `d^` or `c^` or `Ctrl+u` (in insert mode)
 
-### Operations in Bracket Boundaries
+## Vertical Movements:
+
+### Up Arrow
+- Move Up: `k`
+- jump 8 line up: `8k`
+- Delete above 5 line: `d5k`
+
+### Down Arrow
+- Move down: `j`
+- jump 10 line below: `10j`
+- Delete below 3 line: `d3j`
+
+### Operations with lines
+- Move to the top of a file: `gg`
+- Move to the end of a file: `G`
+- Move cursor at the middle: `zz`
+- Insert a new line above cursor: `O`
+- Insert a new line below cursor: `o`
+
+## Operations in Bracket Boundaries
+
 - Delete everything in Parenthesis(): `dib`
 - Delete everything with and between Parenthesis(): `dab`
 - Delete everything in curly braces{}: `diB`
@@ -89,25 +109,6 @@ This cheat sheet covers the most common modes and motions in Vim, helping you na
 - Jumping to matching bracket: `%`
 - Move to start of brakets: `[(`, `[{`
 - Move to end of brakets: `])`, `]}`
-
-## Vertical Movements:
-
-### Up Arrow
-- Move Up: `k`
-- jump 8 line up: `8k`
-- Delete above 5 line: `d5k`
-
-### Down Arrow
-- Move down: `j`
-- jump 10 line below: `10j`
-- Delete below 3 line: `d3j`
-
-### Operations within lines
-- Move to the top of a file: `gg`
-- Move to the end of a file: `G`
-- Move cursor at the middle: `zz`
-- Insert a new line above cursor: `O`
-- Insert a new line below cursor: `o`
 
 ## Additional Tips
 
