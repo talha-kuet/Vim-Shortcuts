@@ -37,10 +37,10 @@ This cheat sheet covers the most common modes and motions in Vim, helping you na
 - Move right: `l`
 
 ### Word Movement
-- Next word: `w` or `W`
-- Previous word: `b` or `B`
-- Start of word: `b` or `B`
-- End of word: `e` or `E`
+- Next word: `w` or `W` (with pancuation)
+- Previous word: `b` or `B` (with pancuation)
+- Start of word: `b` or `B` (with pancuation)
+- End of word: `e` or `E` (with pancuation)
 
 ### Line Positioning
 - Start of line: `I` or `_` (underscore)
