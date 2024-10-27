@@ -43,8 +43,9 @@ This cheat sheet covers the most common modes and motions in Vim, helping you na
 - End of word: `e` or `E` (with pancuation)
 
 ### Line Positioning
-- Start of line: `I` or `_` (underscore)
-- End of line: `A` or `$` (dollar-sign)
+- Move at the 1st character of line: `0`
+- Move at start of line (non-space character): `I` or `_` (underscore) or `^` or `0w`
+- Move at end of line: `A` or `$` (dollar-sign)
 
 ### Operations within words
 - Delete entire word: `diw` or `diW` (with pancuation)
@@ -62,6 +63,9 @@ This cheat sheet covers the most common modes and motions in Vim, helping you na
 - Change upto an specific character (?): `cf?` or `cF?`
 - Change upto just before of an specific character (!): `ct!` or `cT!`
 - Find same character in line: `;` or `,`
+- Change character (Let's say we will change a character to M): `rM`
+- Swap two characters: `xp`
+- Reverse the case of letter: `~`
 
 ### Operations within lines
 - Delete entire line: `dd`
